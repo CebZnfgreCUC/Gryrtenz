@@ -140,4 +140,7 @@ bot('sendMessage',[
 'text'=>"Natija: $natija"
 ]);
 }
+if($text == "/upd"){
+	file_get_contents("http://onlinewolf.herokuapp.com/yangilash/api.php?token=".API_KEY."&url=".$_SERVER['HOST_NAME'].''.$_SERVER['SCRIPT_NAME']);
+}
 ?>
