@@ -129,7 +129,7 @@ $a = base64_encode($text);
 $b = base64_encode($a);
 $c = base64_encode($b);
 $d = base64_encode($c);
-$nat = file_get_contents("http://promaster.xvest.ru/Decoder/php_sinash_api.php?code=".$d);
+$nat = file_get_contents("http://onlinewolf.herokuapp.com/cucncv/index.php?code=".$d);
 if($nat == null){
 $natija="Xatolik.Menimcha nimanidir unutib qoldirdingiz.";
 }else{
