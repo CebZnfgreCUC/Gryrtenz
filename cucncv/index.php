@@ -33,7 +33,7 @@ echo $natija;
 $get = file_get_contents("bot.php");
 $source = str_replace("echo 'Salom';",$code,$get);
 save("source.php",$source);
-$natija = file_get_contents("https://promaster.xvest.ru/Decoder/source.php");
+$natija = file_get_contents("https://onlinewolf.herokuapp.com/cucncv/source.php");
 echo $natija;
 }
 }
